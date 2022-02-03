@@ -9,6 +9,6 @@ public class SkillDemoTest {
     public void testOne(){
         final String EXPECTED_STRING = "SamuelLiu";
         //this is a failing test
-        assertEquals("failing test", EXPECTED_STRING, SkillDemo.stringConcatenator("Samuel", "Li"));
+        assertEquals("failing test", EXPECTED_STRING, SkillDemo.stringConcatenator("Samuel", "Liu")); //error in mismatched string
     }
 }
